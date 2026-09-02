@@ -57,7 +57,7 @@ public class AuthController {
     @GetMapping("/register")
     public String register(Model model){
         model.addAttribute("user", new User());
-        return "register";
+        return "register"; // register jsp
     }
 
     @PostMapping("/register")
