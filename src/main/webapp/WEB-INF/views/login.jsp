@@ -36,5 +36,7 @@
 
 </form>
 
+<a href="${pageContext.request.contextPath}/register">Register</a>
+
 </body>
 </html>
